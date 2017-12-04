@@ -23,8 +23,13 @@ tag
     this.on('mount', init)
 
     function init() {
-      opts.gun.get('path/to/data').rounds(this.items)
+      opts.gun.get('path/to/data').convert(this.items)
     }
 ```
 
 The variable `this.items` will now stay in sync with gun's data when created or edited via `gun.set({ /* ... */ })`.
+
+## Todo
+
+ * testing
+ * link to example within project

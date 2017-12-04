@@ -2,13 +2,10 @@
 
 var reference;
 
-function rounds(source, callback) {
-  reference = source;
+function rounds(source) {
   var self = this, chain = self.chain();
+  reference = source;
   this.map(construct, source);
-  if(callback) {
-    callback();
-  }
   return chain;
 }
 
