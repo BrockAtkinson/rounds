@@ -1,0 +1,12 @@
+{
+  "name": "rounds",
+  "version": "0.1.0",
+  "description": "convert gun.map() to an array for riot tags",
+  "main": "rounds.js",
+  "repository": {
+    "type": "git",
+    "url": "github.com/brockatkinson/rounds"
+  },
+  "author": "Brock Atkinson",
+  "license": "ISC"
+}
